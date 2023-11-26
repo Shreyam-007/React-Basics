@@ -1,5 +1,5 @@
 import { useState } from "react";
-import "./App.css";
+
 
 function App() {
   const [color, setColor] = useState("black");
@@ -9,7 +9,7 @@ function App() {
       className="w-full h-screen duration-300"
       style={{ backgroundColor: color }}
     >
-      <div className="fixed flex flex-wrap justify-center bottom-12 inset-x-0 px-2">
+      <div className="fixed flex flex-wrap justify-center bottom-16 inset-x-0 px-2">
         <div className="flex flex-wrap justify-center gap-3 shadow-lg bg-white rounded-xl px-3 py-2">
           <button
             onClick={() => setColor("red")}
@@ -33,11 +33,11 @@ function App() {
             Blue
           </button>
           <button
-            onClick={() => setColor("lavender")}
+            onClick={() => setColor("gray")}
             className="outline-none px-4 py-2 rounded-xl text-white shadow-lg "
-            style={{ backgroundColor: "lavender" }}
+            style={{ backgroundColor: "gray" }}
           >
-            Lavender
+            Gray
           </button>
           <button
             onClick={() => setColor("orangered")}
