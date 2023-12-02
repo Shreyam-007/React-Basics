@@ -54,4 +54,7 @@ function InputBox({
 export default InputBox;
 
 // When using loops in React (.jsx), remember to keep the key in mind for improve performance of loop.
-// Without keys, React might have difficulty distinguishing between elements when the list changes. This can lead to unexpected behavior, such as elements not updating correctly or unnecessary re-renders. Keys help React keep track of individual elements and prevent reconciliation issues.
+
+// Without keys, React might have difficulty distinguishing between elements when the list changes. 
+// This can lead to unexpected behavior, such as elements not updating correctly or unnecessary re-renders. 
+// Keys help React keep track of individual elements and prevent reconciliation issues.
